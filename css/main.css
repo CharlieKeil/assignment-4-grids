@@ -5,10 +5,61 @@
 @viewport {width: device-width; scale: 1;}
 
 html {
-box-sizing: border-box;
-text-size-adjust: 100%;
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-font-family: sans-serif;
+	box-sizing: border-box;
+	text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.3;
+	font-family: sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin:0;
+}
+
+h1 {
+  background-color: #888;
+  margin: 0;
+  text-align: center;
+  padding: .5em 0 .5em 0;
+}
+
+.nav {
+  background-color: #888;
+  margin: 0;
+}
+
+.nav ol {
+  margin: 0;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+  .nav li {
+    display: inline;
+  }
+
+}
+
+.gutter {
+	padding: 0 1.5em 0 1.5em;
+}
+
+.img-flex {
+	width:100%;
+	display: block;
 }
