@@ -22,6 +22,10 @@ body {
   margin:0;
 }
 
+header {
+  background-color: #888;
+}
+
 h1 {
   background-color: #888;
   margin: 0;
@@ -34,13 +38,9 @@ h1 {
   margin: 0;
 }
 
-.nav ol {
+.nav ul {
   margin: 0;
   padding: 0.5em 0 0.5em 0;
-}
-
-.nav li {
-  list-style-type: none;
 }
 
 .nav a {
@@ -51,8 +51,12 @@ h1 {
 @media only screen and (min-width: 25em) {
   .nav li {
     display: inline;
-  }
 
+  }
+  .nav ul {
+    text-align: center;
+    padding: 1.5em 0 0 0;
+  }
 }
 
 .gutter {
