@@ -33,6 +33,10 @@ h1 {
   padding: .5em 0 .5em 0;
 }
 
+h3 {
+  text-align: center;
+}
+
 .nav {
   background-color: #888;
   margin: 0;
@@ -66,4 +70,9 @@ h1 {
 .img-flex {
 	width:100%;
 	display: block;
+}
+
+.moon {
+	text-align: left;
+	background-color: #fff;
 }
