@@ -53,6 +53,21 @@ h3 {
   margin: 0;
 }
 
+.nav-footer {
+	text-align: left;
+	padding: 0;
+}
+
+.nav-footer ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.nav-footer a {
+	text-decoration: none;
+}
+
+
 @media only screen and (min-width: 25em) {
   .nav li {
     display: inline;
@@ -61,6 +76,14 @@ h3 {
     text-align: center;
     padding: 1.5em 0 0 0;
   }
+
+	.nav-footer li {
+		display: inline;
+	}
+	.nav-footer ul {
+		padding: 1.5em 0 0 0;
+	}
+
 }
 
 .gutter {
