@@ -24,17 +24,11 @@ body {
 
 header {
   background-color: #CBCBCB;
-	padding-top: 1.25em;
 }
 
 h1 {
   margin: 0;
-  text-align: center;
   padding: .5em 0 .5em 0;
-}
-
-h3 {
-	padding-top: 1em;
 }
 
 figure {
@@ -44,7 +38,8 @@ figure {
 }
 
 dd {
-	margin: 0;
+	margin: 0 0 1em 0;
+
 }
 
 .grey {
@@ -52,7 +47,7 @@ dd {
 }
 
 .bar {
-	padding: 1.5em 1em .5em 1em;
+
 	text-align: center;
 	background-color: #E2E2E2;
 
@@ -84,19 +79,17 @@ dd {
 
 footer {
 	background-color: #CBCBCB;
-	padding-top: 1.25em;
 }
 
 .nav-footer {
 	text-align: left;
-	padding: 0 0 1em 0;
 	margin: 0;
 }
 
 .nav-footer ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding:1em 0 0 0;
 }
 
 .nav-footer li {
