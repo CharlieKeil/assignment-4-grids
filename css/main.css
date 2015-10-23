@@ -27,7 +27,6 @@ header {
 }
 
 h1 {
-  background-color: #888;
   margin: 0;
   text-align: center;
   padding: .5em 0 .5em 0;
@@ -37,8 +36,21 @@ h3 {
   text-align: center;
 }
 
+figure {
+	margin:0;
+	padding: 1em 0 1em 0;
+	background-color: #EEEEEE;
+}
+
+dd {
+	margin: 0;
+}
+
+.grey {
+	background-color: #E2E2E2;
+}
+
 .nav {
-  background-color: #888;
   margin: 0;
 }
 
@@ -53,13 +65,19 @@ h3 {
   margin: 0;
 }
 
+footer {
+	background-color: #CBCBCB;
+}
+
 .nav-footer {
 	text-align: left;
-	padding: 0;
+	padding: 0 0 1em 0;
+	margin: 0;
 }
 
 .nav-footer ul {
 	list-style-type: none;
+	margin: 0;
 	padding: 0;
 }
 
