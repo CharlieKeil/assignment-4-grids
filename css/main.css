@@ -23,7 +23,8 @@ body {
 }
 
 header {
-  background-color: #888;
+  background-color: #CBCBCB;
+	padding-top: 1.25em;
 }
 
 h1 {
@@ -33,12 +34,12 @@ h1 {
 }
 
 h3 {
-  text-align: center;
+	padding-top: 1em;
 }
 
 figure {
 	margin:0;
-	padding: 1em 0 1em 0;
+	padding: 1em 0 0 0;
 	background-color: #EEEEEE;
 }
 
@@ -48,6 +49,13 @@ dd {
 
 .grey {
 	background-color: #E2E2E2;
+}
+
+.bar {
+	padding: 1.5em 1em .5em 1em;
+	text-align: center;
+	background-color: #E2E2E2;
+
 }
 
 .nav {
@@ -63,10 +71,20 @@ dd {
 .nav a {
   text-decoration: none;
   margin: 0;
+	padding: .75em .75em .75em .75em;
+	color: #1479DA;
+}
+
+.nav a:hover {
+	padding: .75em .75em .75em .75em;
+	background-color: #1479DA;
+	color: #fff;
+
 }
 
 footer {
 	background-color: #CBCBCB;
+	padding-top: 1.25em;
 }
 
 .nav-footer {
@@ -81,8 +99,14 @@ footer {
 	padding: 0;
 }
 
+.nav-footer li {
+	display: inline;
+}
+
 .nav-footer a {
 	text-decoration: none;
+	display: inline;
+	color: #1479DA;
 }
 
 
@@ -99,13 +123,17 @@ footer {
 		display: inline;
 	}
 	.nav-footer ul {
-		padding: 1.5em 0 0 0;
+
 	}
 
 }
 
 .gutter {
 	padding: 0 1.5em 0 1.5em;
+}
+
+.gutter2 {
+	padding: 1.5em 0 1.5em 0;
 }
 
 .img-flex {
