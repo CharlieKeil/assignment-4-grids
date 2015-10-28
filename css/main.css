@@ -29,6 +29,13 @@ header {
 h1 {
   margin: 0;
   padding: .5em 0 .5em 0;
+	text-align: center;
+}
+
+@media only screen and (min-width: 607px) {
+	h1 {
+		text-align: left;
+	}
 }
 
 figure {
@@ -50,7 +57,6 @@ dd {
 
 	text-align: center;
 	background-color: #E2E2E2;
-
 }
 
 .nav {
@@ -68,17 +74,25 @@ dd {
   margin: 0;
 	padding: .75em .75em .75em .75em;
 	color: #1479DA;
+	display: block;
+
 }
 
 .nav a:hover {
 	padding: .75em .75em .75em .75em;
 	background-color: #1479DA;
 	color: #fff;
-
 }
 
+@media only screen and (min-width: 25em) {
+	.nav a {
+		display: inline;
+	}
+
+}
 footer {
 	background-color: #CBCBCB;
+	padding-bottom: 1em;
 }
 
 .nav-footer {
@@ -89,7 +103,7 @@ footer {
 .nav-footer ul {
 	list-style-type: none;
 	margin: 0;
-	padding:1em 0 0 0;
+	padding: 1em 0 0 0;
 }
 
 .nav-footer li {
@@ -109,7 +123,6 @@ footer {
   }
   .nav ul {
     text-align: center;
-    padding: 1.5em 0 0 0;
   }
 
 	.nav-footer li {
