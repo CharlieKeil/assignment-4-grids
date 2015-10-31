@@ -49,14 +49,17 @@ dd {
 
 }
 
+.top {
+	text-decoration: none;
+	color: #1479DA;
+
+}
 
 .grey {
 	background-color: #E2E2E2;
 }
 
 .bar {
-
-	text-align: center;
 	background-color: #E2E2E2;
 }
 
@@ -120,7 +123,7 @@ footer {
 
 @media only screen and (min-width: 25em) {
   .nav li {
-    display: inline;
+    display: inline-block;
   }
   .nav ul {
     text-align: center;
@@ -129,18 +132,11 @@ footer {
 	.nav-footer li {
 		display: inline;
 	}
-	.nav-footer ul {
-
-	}
 
 }
 
 .gutter {
 	padding: 0 1.5em 0 1.5em;
-}
-
-.gutter2 {
-	padding: 1.5em 0 1.5em 0;
 }
 
 .img-flex {
